@@ -43,35 +43,51 @@ A simple Digital Wallet System built using Node.js. This application provides AP
 ## API Endpoints
 
 Balance Inquiry
+
 Endpoint: /api/wallet/balance
+
 Method: GET
+
 Request: No body required
+
 Response:
 {
   "success": true,
   "balance": 1000
 }
 
+
+
 Cash-in
+
 Endpoint: /api/wallet/cash-in
+
 Method: POST
+
 Request:
 {
   "amount": 500
 }
+
 Response:
 {
   "success": true,
   "balance": 1500
 }
 
+
+
 Debit
+
 Endpoint: /api/wallet/debit
+
 Method: POST
+
 Request:
 {
   "amount": 200
 }
+
 Response:
 {
   "success": true,
